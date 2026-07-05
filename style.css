@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: 'TarmilesAction';
+    src: url('fonts/TarmilesAction.otf');
+}
+
+
+
+body {
+    background-color: #000000;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://cdna.artstation.com/p/assets/images/images/055/139/072/4k/nuare-studio-cn077-embargo-tbd-holiday-theme-ahri-riven-kv-final-3000x1992-1-scaled.jpg?1666204366");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+h1 {
+    font-size: 30px;
+    font-family: "TarmilesAction", Arial, sans-serif;
+    font-weight: normal;
+    margin-bottom: 1px;
+}
+
+h2 {
+    font-size: 15px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+
+}
+h3 {
+    font-size: 22px;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.icone-local {
+    color: #ff0000;
+    font-size: 14px;
+    position: relative;
+    bottom: 2px;
+}
+.video-box {
+  width: 95%;
+  max-width: 600px;
+  aspect-ratio: 16 / 9;
+  margin: 40px auto;
+
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.video-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
